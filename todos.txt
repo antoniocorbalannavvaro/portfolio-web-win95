@@ -1,0 +1,3 @@
+1 - Cambiar 
+2 - Centrar texto del icono de tour.
+3 - Centrar el texto del bocadilcklo de mi bestia.
