@@ -78,6 +78,8 @@ Este código es completamente Open Source, así que puedes utilizarlo como mejor
 - [x] Emular la interfaz de Windows 95.
 - [x] Crear carpetas con información sobre mi perfil.
 - [x] Añadir links directos a mis redes sociales.
+- [x] Implementar botón de pantalla completa en las carpetas.
+- [ ] Implementar botón de minimizar carpetas.
 - [x] Función Drag and Drop para las ventanas de contenido.
 - [ ] Función Drag and Drop para los iconos del escritorio.
 - [ ] Permitir crear carpetas nuevas y cambiarles el nombre.
