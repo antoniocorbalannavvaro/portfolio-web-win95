@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@400;600&family=Roboto&family=VT323&display=swap');
+
+.navBarBottom h1 {
+  font-family: 'VT323', monospace;
+  font-style: bold;
+  position: relative;
+  left: 4px;
+}
+
+.navBarBottom {
+  position: absolute;
+  display: flex;
+  bottom: 0px;
+  background-color: #B4B4B4;
+  height: 25px;
+  width: 100vw;
+  border-top: 2px solid #D4D9DC;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  padding: 2px;
+  margin: 0;
+  width: 100%;
+}
+
+.homeButton {
+  display: flex;
+  background-color: #B4B4B4;
+  border-top: 2px solid #D4D9DC;
+  border-left: 2px solid #D4D9DC;
+  border-right: 2px solid #585858;
+  border-bottom: 2px solid #484848;
+  box-shadow: 0px 0.5px 1px 0px black;
+  gap: 2px;
+  text-align: center;
+  align-items: center;
+  border-radius: 0px;
+  padding-right: 10px;
+  width: 95px;
+  height: 22px;
+}
+
+.homeButton img {
+  width: 20px;
+  height: 15px;
+}
+
+.homeButton:hover {
+  background-color: #959595;
+  cursor: pointer;
+}
+
+.clock {
+  display: flex;
+  width: 80px;
+  background-color: #d1d1d1;
+  border-right: 2px solid #484848;
+  border-bottom: 2px solid #484848;
+  border-top: 2px solid #D4D9DC;
+  border-left: 2px solid #D4D9DC;
+  padding-left: 10px;
+  padding-right : 5px;
+  color: black;
+  gap: 5px;
+}
+
+.startButton {
+  position: relative;
+  top: -1px;
+}
+
+.clock h1 {
+  position: relative;
+  font-size: 19px;
+  bottom: 19px;
+  left: -3px;
+}
+
+.clockLogo {
+  position: relative;
+  bottom: 1px;
+}
+
+.fakeTrigger {
+  position: static;
+  width: 500px;
+  height: 500px;
+  background-color: red;
+  bottom: 10000px;
+}

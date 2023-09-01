@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+.pageContainer {
+  background-color: #1D2026;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: #fff;
+  font-weight: 600;
+  padding: 50px;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  background-color: rgba(100, 148, 237, 0.075);
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 0.5rem;
+}
+
+.bannerImg1 {
+  width: 300px;
+  /* background-color: rgba(0, 0, 0, 0.312); */
+  border-radius: .5rem;
+  position: relative;
+  top: 30px;
+}
+
+.banner h1 {
+  font-size: 50px;
+  letter-spacing: 0px;
+}
+
+.banner h2 {
+  color:#8A94A7;
+}
+
+
+.content {
+  display: flex;
+  justify-content: space-evenly;
+  gap:200px;
+  /* background-color: darkgreen; */
+}
+
+.card {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.card h1 {
+  font-size:large;
+  margin-bottom: -10px;
+}
+
+.card h2 {
+  font-weight: 300;
+  color:#8A94A7;
+  max-width: 300px;
+  overflow: auto;
+}
+.sectionTitle {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.435);
+  margin-bottom: 60px;
+  cursor: pointer;
+}
+
+.sectionTitle:hover {
+  background-color: rgba(0, 0, 0, 0.767);
+}
+
+.cardProject {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 150px;
+}
+
+.textProject {
+  border-radius: 0.5rem;
+  text-align: center;
+  width: 400px;
+}
+
+.textProject h1 {
+  font-size: 50px;
+  background-color: rgba(0, 106, 255, 0.168);
+  border-radius: .5rem;
+}
+
+.textProject h2 {
+  color:#8A94A7;
+  font-size: 20px;
+}
+
+.cardProject img {
+  width: 400px;
+  border: 1px solid rgb(26, 25, 25);
+  border-radius: .5rem;
+}
+
+.software {
+  font-size: 20px;
+  color:#b2bdd4;
+  padding-left: 1px;
+  text-decoration: underline;
+}
+
+.contactContainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contact {
+  background-color: rgba(0, 0, 0, 0.582);
+  width: 230px;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: .5rem;
+  height: 280px;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.414);
+}
+
+.contact img {
+  border-radius: 50%;
+  width: 120px;
+}

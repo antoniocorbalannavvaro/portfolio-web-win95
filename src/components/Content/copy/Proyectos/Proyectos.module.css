@@ -1,0 +1,60 @@
+.pageContainer {
+  display: grid;
+  font-family: "Lucida Console", "Courier New", monospace;
+  background-color: #3b3b3b;
+  color: black;
+}
+
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  height: 400px;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 600px;
+  background-color: darkslategray;
+}
+
+.footer {
+  height: 600px;
+  background-color: darkolivegreen;
+}
+
+.imgDiv {
+  width: 200px;
+  height: 400px;
+  background-color: red;
+}
+
+.textDiv {
+  background-color: yellowgreen;
+  max-width: 50%;
+}
+
+.solutions {
+  display: grid;
+  padding: 20px;
+}
+
+.card {
+  width: 100%;
+  background-color: red;
+  margin-bottom: 10px;
+  height: 50px;
+  text-align: center;
+}
+
+.card h1 {
+  position: relative;
+  bottom: 5px;
+}
+
+.screens {
+  height: 400px;
+  background-color: darkslateblue;
+}

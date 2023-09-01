@@ -1,0 +1,140 @@
+
+.tourCard {
+    height: auto;
+    position: absolute;
+    font-size: large;
+    border-style: solid;
+    border-radius: 0.5rem;
+    border: 5px;
+    border-color: rgb(154, 154, 154);
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 0px 200vw;
+    color: black;
+    z-index: 2;
+}
+
+.tourText {
+    position: absolute;
+    text-align: center;
+    padding: 8px;
+    position: fixed;
+    background: #ffffff;
+    border: 3px solid black;
+}
+
+.closeButton {
+    position: absolute;
+    border-top: 2px solid #D4D9DC;
+    border-left: 2px solid #D4D9DC;
+    border-right: 2px solid #585858;
+    border-bottom: 2px solid #484848;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 19px;
+    padding: 1px;
+}
+
+.closeButton:hover {
+    background-color: #898989;
+}
+
+
+.wizzardButton {
+    font-family: 'VT323', monospace;
+    font-size: 20px;
+    margin-left: 5px;
+    background-color: #B4B4B4;
+    border-top: 2px solid #D4D9DC;
+    border-left: 2px solid #D4D9DC;
+    border-right: 2px solid #585858;
+    border-bottom: 2px solid #484848;
+    box-shadow: 0px 0.5px 1px 0px black;
+    width: 120px;
+    height: 50px;
+}
+
+.wizzardButton:hover {
+    background: #7d7d7d;
+    border-top: 2px solid #bdbdbd;
+    border-left: 2px solid #bdbdbd;
+    border-right: 2px solid #464646;
+    border-bottom: 2px solid #313131;
+}
+
+.buttonContainer {
+    position: fixed;
+    right: 0px; top: 0px;
+    width: auto;
+    height: auto;
+    z-index: 2;
+}
+
+.question {
+    border-color: rgba(0,0,0,0);
+    background-color: rgba(0,0,0,0);
+}
+
+.question img {
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+.question img:hover {
+    border-radius: 0.2rem;
+    background-color: rgba(0, 170, 255, 0.24);
+    cursor: pointer;
+}
+
+.smilingFace {
+    position: absolute; 
+    top:30px;
+    left: 100px;
+}
+
+.cursorHand {
+    position: absolute; 
+    top:100px;
+    left: 700px;
+}
+
+.arrowImg {
+    position: absolute;
+    left: 600px;
+    top: 150px;
+}
+
+.labelsImg {
+    position: absolute;
+    left: -550px;
+    top: 150px;
+}
+
+.emotionsImg {
+    position: absolute;
+    top:120px;
+}
+
+.dealImg {
+    position: absolute;
+    top: -110px;
+    left: -550px;
+}
+
+.searchingImg {
+    position: absolute;
+    left: 830px;
+    top: 125px;
+}
+
+.questionContainter {
+    position: relative;
+    top: -24px;
+    left: 25px;
+}
+
+.tourFolder {
+    position: relative;
+    top: 1px;
+    left: 5px;
+}

@@ -1,0 +1,68 @@
+.card {
+  width: 100%;
+  height: 200px;
+  background-color: #232323;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.524);
+}
+
+.cardImg {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #232323;
+  padding: 10px;
+  border-radius: .5rem;
+  color:#d5dbe6;
+  height: 230px;
+}
+
+.cardImg img {
+  /* width: 128px; */
+  width: 140px;
+  height: 138px;
+  background-color: rgba(0, 0, 0, 0.318);
+}
+
+.cardContent {
+  display: grid;
+  text-align: left;
+  justify-content: left;
+  align-items: center;
+  padding: 50px;
+  /* box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.524); */
+}
+
+.cardTitle {
+  display: flex;
+  position: sticky;
+  top: 0;
+  width: 50%;
+  height: 30px;
+  background-color: #232323;
+  color:#d5dbe6;
+
+  border: 1px solid black;
+  /* box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.524); */
+  justify-content: left;
+  align-items: center;
+  text-align: center;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  padding: 5px;
+  padding-top: 9px;
+  margin-top: 20px;
+}
+
+.CardCertificates {
+  display: flex;
+  width: 100%;
+  height: 100px;
+}
+
+.cardCertificates img {
+  width: 100%;
+  height: 100%;
+  padding-top: 20px;
+  /* box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.524); */
+}

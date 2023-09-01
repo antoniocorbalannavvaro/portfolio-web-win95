@@ -1,0 +1,34 @@
+
+.NavBottomPopUp-content {
+  position: absolute;
+  bottom: 20px;
+  margin-top: 29px;
+  border-radius: 1rem;
+  transition: width 6s, height 6s;
+  color: black;
+  position: relative;
+  top: 100px;
+  z-index: 2;
+
+}
+
+.NavBottomPopUp-arrow {
+  display: none;
+}
+
+[role='tooltip'].NavBottomPopUp-content {
+  background-color: transparent;
+  border-color: transparent;
+  display: flex;
+  position: absolute;
+  width: 1px;
+  height: 200px;
+}
+
+[data-popup='tooltip'].NavBottomPopUp-overlay {
+  background: transparent;
+}
+
+.NavBottomPopUp img:hover {
+  cursor: pointer;
+}

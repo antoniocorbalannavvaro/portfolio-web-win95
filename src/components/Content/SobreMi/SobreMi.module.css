@@ -1,0 +1,23 @@
+.aboutMe {
+  display: grid;
+  background-image: url('../Proyectos//images/fail.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 92.5vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  /* position: absolute; */
+  background-color: rgba(0, 0, 0, 0.517);
+  width: fit-content;
+  height: fit-content;
+  /* top: 250px;
+  left: 20px; */
+  padding: 20px;
+  text-align: center;
+  color: white;
+  /* font-family: 'Trebuchet MS', sans-serif; */
+}

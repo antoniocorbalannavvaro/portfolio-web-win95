@@ -1,0 +1,10 @@
+.aboutMe {
+  display: grid;
+}
+
+.content {
+  height: 100vh;
+  background: url('../../../assets/ubuntu_wallpaper.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}

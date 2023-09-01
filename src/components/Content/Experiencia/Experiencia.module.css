@@ -1,0 +1,143 @@
+.pageContainer {
+  display: grid;
+  justify-content: center;
+  font-family: "Lucida Console", "Courier New", monospace;
+  background-color: #3b3b3b;
+  color: black;
+}
+
+.header {
+  padding: 10px;
+  margin: 10px;
+  border-radius: .5rem;
+  text-align: center;
+  color: white;
+}
+
+.content {
+  padding: 10px;
+  margin: 10px;
+  border-radius: .5rem;
+  text-align: left;
+  /* background-color: darkblue; */
+}
+
+.footer {
+  padding: 10px;
+  margin: 10px;
+  border-radius: .5rem;
+  text-align: center;
+  /* background-color: darkgreen; */
+}
+
+.stack {
+  display: flex;
+  padding: 10px;
+  border-radius: .5rem;
+  column-gap: 10px;
+}
+
+.convolutionalSection {
+  background-color: #a7b3c9;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  /* border: 0.5px solid black; */
+  /* border-radius: .5rem; */
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.644);
+}
+
+.unnitationSection {
+  background-color: #a7b3c9;
+  margin-bottom: 100px;
+  /* border: 0.5px solid black; */
+  /* border-radius: .5rem; */
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.644);
+}
+
+.aquaSection {
+  background-color: white;
+  margin-bottom: 50px;
+  /* border: 0.5px solid black; */
+  /* border-radius: .5rem; */
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.644);
+}
+
+.pageContainer h1 {
+  /* background-color: darkseagreen; */
+  padding: 5px;
+  border-radius: 0.5rem;
+}
+
+.convolutionalSection .header {
+  background-color: rgb(23, 56, 118);
+}
+
+.pageContainer .convolutionalSection h2 {
+  font-size: 20px;
+  font-style: normal;
+  background-color: rgba(23, 56, 118, 0.507);
+  padding: 2px;
+  padding-top: 6px;
+  padding-left: 3px;
+  text-align: left;
+  /* text-decoration: underline 1px; */
+  width: 30%;
+  border-top-right-radius: .5rem;
+  border-bottom-right-radius: .5rem;
+}
+
+.unnitationSection .header {
+  background-color: rgb(23, 56, 118);
+}
+
+.pageContainer .unnitationSection h2 {
+  font-size: 20px;
+  font-style: normal;
+  background-color: rgba(23, 56, 118, 0.507);
+  padding: 2px;
+  padding-top: 6px;
+  padding-left: 3px;
+  text-align: left;
+  /* text-decoration: underline 1px; */
+  width: 30%;
+  border-top-right-radius: .5rem;
+  border-bottom-right-radius: .5rem;
+}
+
+.aquaSection .header {
+  background-color: darkgoldenrod;
+}
+
+.pageContainer .aquaSection h2 {
+  font-size: 20px;
+  font-style: normal;
+  background-color: rgba(184, 135, 11, 0.493);
+  padding: 2px;
+  padding-top: 6px;
+  padding-left: 3px;
+  text-align: left;
+  /* text-decoration: underline 1px; */
+  width: 30%;
+  border-top-right-radius: .5rem;
+  border-bottom-right-radius: .5rem;
+}
+
+.textContent {
+  margin-left: 4px;
+  font-size: 15px;
+}
+
+.header h1 {
+  font-size: 45px;
+}
+
+.header h3 {
+  font-size: 35px;
+  position: relative;
+  bottom: 20px;
+  font-style: oblique;
+}
+
+.descriptionTitle {
+  margin-bottom: 35px;
+}
