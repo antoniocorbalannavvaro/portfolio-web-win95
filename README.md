@@ -97,7 +97,7 @@ Este código es completamente Open Source, así que puedes utilizarlo como mejor
 <img src='./readmePictures/readme-picture4.png'/>
 
 
-## Contact
+## Contacto
 
 Antonio Corbalán Navarro - antoniocn1996@gmail.com
 
