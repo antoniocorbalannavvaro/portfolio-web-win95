@@ -100,6 +100,3 @@ Este código es completamente Open Source, así que puedes utilizarlo como mejor
 ## Contacto
 
 Antonio Corbalán Navarro - antoniocn1996@gmail.com
-
-Project Link: [portfolio-web-win95](https://github.com/antoniocorbalannavvaro/portfolio-web-win95)
-
