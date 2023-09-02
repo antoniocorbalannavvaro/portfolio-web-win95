@@ -3,7 +3,7 @@
 
   <p align="center">
     Emulación de la interfaz de windows 95 utilizando React
-    <a href='https://portfolio-antonio-corbalan.vercel.app/' target='_blank'/>
+    <a href="https://portfolio-antonio-corbalan.vercel.app/" target="_blank">LIVE DEMO</a>
     <br />
   </p>
 </div>
