@@ -1,10 +1,8 @@
-<!-- PROJECT LOGO -->
-
 <h1 align="center">Portfolio web</h1>
 <h3 align="center"> (Clon Windows 95) </h3>
 
   <p align="center">
-    Emulación de la interfaz de windows 95 utilazando React, Javascript, HTML y CSS
+    Emulación de la interfaz de windows 95 utilizando React
     <br />
   </p>
 </div>
@@ -21,12 +19,11 @@ Tecnologías usadas:
 
 En este proyecto no se ha utilizado ninguna librería que imite ya previamente la interfaz de Windows 95. Todos los componentes están estilados uno a uno utilizando únicamente CSS Modules.
 
-<!-- GETTING STARTED -->
 ## Getting Started
 
 Si quieres utilizar este portfolio como template para hacer tu propia versión, te dejo aquí los comandos que necesitas para poder ejecutar la aplicación en local.
 
-### Prerequisitos
+### Prerrequisitos
 
 Necesitas tener NodeJS instalado en tu ordenador.
 * Instalación en Linux:
@@ -66,13 +63,11 @@ Ejecuta los comandos en el orden indicado:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-
-<!-- USAGE EXAMPLES -->
 ## Usos
 
 Este código es completamente Open Source, así que puedes utilizarlo como mejor te convenga.
 
-<!-- ROADMAP -->
+
 ## Roadmap
 
 - [x] Emular la interfaz de Windows 95.
@@ -100,7 +95,7 @@ Este código es completamente Open Source, así que puedes utilizarlo como mejor
 <h1 align="center"> Ventanas:
 <img src='./readmePictures/readme-picture4.png'/>
 
-<!-- CONTACT -->
+
 ## Contact
 
 Antonio Corbalán Navarro - antoniocn1996@gmail.com
