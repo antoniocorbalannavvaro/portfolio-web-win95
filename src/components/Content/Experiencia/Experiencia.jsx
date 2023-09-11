@@ -16,7 +16,7 @@ const Experiencia = () => {
           <div className={style.content}>
             <h2 className={style.descriptionTitle}>Decripción:</h2>
             <div className={style.textContent}>
-              <h5>Convolutional Port es un proyecto de start-up que fundé junto a un compañero.</h5>
+              <h5>Convolutional Port es una start-up con sede en Murcia.</h5>
               <h5>El proyecto que desarrollamos soluciona uno de los problemas más recurrentes</h5>
               <h5>en los puertos de recreo españoles; registrar las entradas y salidas</h5>
               <h5>de los barcos en los puertos y la monitorización en tiempo real de</h5>
@@ -38,16 +38,6 @@ const Experiencia = () => {
               <h5>de software de gestión portuaria en España.</h5>
             </div>
           </div>
-
-          {/* <footer className={style.footer}>
-            <h2>Tecnologias:</h2>
-            <section className={style.stack}>
-              <CardImg img={expressLogo} text={'ExpressJS'}/>
-              <CardImg img={expressLogo} text={'ExpressJS'}/>
-              <CardImg img={expressLogo} text={'ExpressJS'}/>
-              <CardImg img={expressLogo} text={'ExpressJS'}/>
-            </section>
-          </footer> */}
         </section>
     </div>
 
@@ -82,52 +72,8 @@ const Experiencia = () => {
               <h5>de manera específica para el entrenamiento de sus modelos.</h5>
             </div>
           </div>
-
-          {/* <footer className={style.footer}>
-            <h2>Tecnologias:</h2>
-            <section className={style.stack}>
-              <CardImg img={expressLogo} text={'ExpressJS'}/>
-              <CardImg img={expressLogo} text={'ExpressJS'}/>
-              <CardImg img={expressLogo} text={'ExpressJS'}/>
-              <CardImg img={expressLogo} text={'ExpressJS'}/>
-            </section>
-          </footer> */}
         </section>
     </div>
-
-    {/* <div className={style.aquaSection}>
-      <section className={style.section}>
-          <div className={style.header}>
-            <h1>AQUACORP</h1>
-            <h3>Data Scientist</h3>
-          </div>
-
-          <div className={style.content}>
-            <h2>Decripción:</h2>
-            <div className={style.textContent}>
-              <h5>Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto uexto</h5>
-              <h5>Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto uexto</h5>
-              <h5>Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto uexto</h5>
-              <h5>Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto uexto</h5>
-              <h5>Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto uexto</h5>
-              <h5>Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto uexto</h5>
-              <h5>Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto uexto</h5>
-              <h5>Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto uexto</h5>
-            </div>
-          </div>
-
-          <footer className={style.footer}>
-            <h2>Tecnologias:</h2>
-            <section className={style.stack}>
-              <CardImg img={expressLogo} text={'ExpressJS'}/>
-              <CardImg img={expressLogo} text={'ExpressJS'}/>
-              <CardImg img={expressLogo} text={'ExpressJS'}/>
-              <CardImg img={expressLogo} text={'ExpressJS'}/>
-            </section>
-          </footer>
-        </section>
-    </div> */}
-
     </div>
   );
 }
