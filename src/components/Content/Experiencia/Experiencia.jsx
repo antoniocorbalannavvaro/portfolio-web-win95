@@ -10,7 +10,7 @@ const Experiencia = () => {
       <section className={style.section}>
           <div className={style.header}>
             <h1>UXING</h1>
-            <h3>Full Stack Developer</h3>
+            <h3>Full-Stack Developer</h3>
           </div>
 
           <div className={style.content}>
@@ -35,6 +35,7 @@ const Experiencia = () => {
               <h5>número de teléfono. Para ello tuve que integrar en la APP el servicio de SMS de la</h5>
               <h5>plataforma "Twilio", para poder contrastar el código de verificación enviado para registrarte</h5>
               <h5>en la aplicación</h5>
+              <br></br>
               <h5>Los principales retos a los que me enfrente fueron: La integración de "Push Notifications"</h5>
               <h5>en la App para avisar de la creación o cambios en los planes en los que estás invitado y </h5>
               <h5>la creación de un Socket para el chat de cada plan.</h5>
@@ -51,7 +52,7 @@ const Experiencia = () => {
       <section className={style.section}>
           <div className={style.header}>
             <h1>VIAJES COMBOS</h1>
-            <h3>Fullstack Developer</h3>
+            <h3>Full-Stack Developer</h3>
           </div>
 
           <div className={style.content}>
@@ -70,8 +71,7 @@ const Experiencia = () => {
               <h5>para su posterior destrucción.</h5>
               <br/>
               <h5>Para el desarrollo de esta plataforma estoy utilizando: React, para la parte del cliente,</h5>
-              <h5>y ExpressJS, para la parte del servidor. </h5>
-              <h5>nace UNNITATION.</h5>
+              <h5>y ExpressJS, para la parte del servidor.</h5>
             </div>
           </div>
         </section>
