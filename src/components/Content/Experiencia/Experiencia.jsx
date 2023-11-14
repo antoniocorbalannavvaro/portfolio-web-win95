@@ -9,30 +9,39 @@ const Experiencia = () => {
     <div className={style.convolutionalSection}>
       <section className={style.section}>
           <div className={style.header}>
-            <h1>CONVOLUTIONAL PORT</h1>
-            <h3>Data Scientist & Fullstack</h3>
+            <h1>UXING</h1>
+            <h3>Full Stack Developer</h3>
           </div>
 
           <div className={style.content}>
             <h2 className={style.descriptionTitle}>Decripción:</h2>
             <div className={style.textContent}>
-              <h5>Convolutional Port es un proyecto personal que realicé junto a un compañero.</h5>
-              <h5>El proyecto que desarrollamos soluciona uno de los problemas más recurrentes</h5>
-              <h5>en los puertos de recreo españoles; registrar las entradas y salidas</h5>
-              <h5>de los barcos en los puertos y la monitorización en tiempo real de</h5>
-              <h5>la ocupación de los puntos de amarre de los mismos.</h5>
+              <h5>Uxing es una empresa con sede en Murcia que se dedica principalmente al</h5>
+              <h5>desarrollo de plataformas y páginas web para otras empresas.</h5>
               <br></br>
-              <h5>El sistema funciona mediante la colocación de una cámara con un sensor PIR</h5>
-              <h5>en la entrada del puerto. Estas fotos se envían a un servidor donde se aplica</h5>
-              <h5>un modelo de OCR para extraer la matrícula de la embarcación y otro modelo</h5>
-              <h5>de detección de objeto para determinar si el barco entra o sale.</h5>
-              <h5>Todos estos datos se envían a una aplicación frontend donde puedes ver</h5>
-              <h5>el estado de puerto, así como el histórico de entradas y salidas por fecha.</h5>
+              <h5>Durante mi paso como freelance por la empresa, estuve desarrollando</h5>
+              <h5>conjuntamente con el CEO de la empresa, Pablo García, una aplicación para</h5>
+              <h5>smart phones.</h5>
               <br></br>
-              <h5>Este software dispone también de un aviso temprano a marineria para asistir</h5>
-              <h5>al amarre de las embarcaciones. De esta forma, cuando una embarcación entra</h5>
-              <h5>en el puerto, salta una alarma con la matrícula y punto de amarre correspondiente</h5>
-              <h5>para poder asistir correctamente al amarre y evitar posibles accidentes.</h5>
+              <h5>La aplicación, llamada "QuedApp", te permite agendar, planificar y realizar planes</h5>
+              <h5>con tus amigos. Dispone de diferentes opciones muy intuitivas y personalizables</h5>
+              <h5>para crear planes, así como templates de los planes más comunes para que sólo tengas</h5>
+              <h5>que añadir a tus amigos al plan y dar un click para que este se cree.</h5>
+              <br></br>
+              <h5>Mi principal función en el desarrollo de la APP fue crear el backend de la aplicación.</h5>
+              <h5>Para la parte del servidor utilicé Javascript con el framework de Express.</h5>
+              <h5>En cuanto a la base de datos, decidí usar Postgres dada su robustez y versatilidad.</h5>
+              <h5>Para poder conectarte a la APP, el modo de registro utilizado funciona por SMS con tu</h5>
+              <h5>número de teléfono. Para ello tuve que integrar en la APP el servicio de SMS de la</h5>
+              <h5>plataforma "Twilio", para poder contrastar el código de verificación enviado para registrarte</h5>
+              <h5>en la aplicación</h5>
+              <h5>Los principales retos a los que me enfrente fueron: La integración de "Push Notifications"</h5>
+              <h5>en la App para avisar de la creación o cambios en los planes en los que estás invitado y </h5>
+              <h5>la creación de un Socket para el chat de cada plan.</h5>
+              <br></br>
+              <h5>A parte del desarrollo del backend, también revisé y corregí la versión de Android, ya que .</h5>
+              <h5>la App se estaba desarrollando en IOs y al pasarla a Android algunas funcionalidades y.</h5>
+              <h5>componentes presentaban incompatibilidades.</h5>
             </div>
           </div>
         </section>
@@ -41,32 +50,28 @@ const Experiencia = () => {
     <div className={style.unnitationSection}>
       <section className={style.section}>
           <div className={style.header}>
-            <h1>UNNITATION</h1>
+            <h1>VIAJES COMBOS</h1>
             <h3>Fullstack Developer</h3>
           </div>
 
           <div className={style.content}>
             <h2 className={style.descriptionTitle}>Decripción:</h2>
             <div className={style.textContent}>
-              <h5>UNNITATION es una Annotation Tool orientada al etiquetado de emociones humanas</h5>
-              <h5>en videos de reuniones online de negocios en las principales plataformas de meeting:</h5>
-              <h5>Google Meet, Microsoft Team, Skype...</h5>
-              <h5>Este proyecto se realizó pensando en las necesidades UNIPHORE,</h5>
-              <h5>empresa Valenciana.</h5>
+              <h5>Viajes Combos es una agencia de viajes Murciana.</h5>
+              <h5>Actualmente me encuentro desarrollando una plataforma web centralizada que permita</h5>
+              <h5>a los agentes de viajes gestionar sus cuentas y clientes sin tener que utilizar</h5>
+              <h5>varios softwares de gestión para cada una de las tareas, llevandoles a duplicar</h5>
+              <h5>en muchas ocasiones datos y tareas debido a la cantidad de programas que utilizan.</h5>
               <br/>
-              <h5>UNIPHORE comercializa un software capaz de valorar, mediante un modelo de</h5>
-              <h5>inteligencia artificial, si una reunión de negocios ha sido satisfactoria o</h5>
-              <h5>si por lo contrario, se ha producido un desacuerdo. Para ello su modelo detecta</h5>
-              <h5>las emociones de los participantes de la reunión.</h5>
+              <h5>Esta plataforma también pretende reducir el excesivo uso de papel que se hace en </h5>
+              <h5>este sector, ya que en un estudio que realicé con diferentes agencias de viajes,</h5>
+              <h5>pude ver que todas tienen un problema con el almacenamiento de documentos, impresos</h5>
+              <h5>facturas... que periódicamente tienen que introducir, una a una, en un sistema infórmatico</h5>
+              <h5>para su posterior destrucción.</h5>
               <br/>
-              <h5>Ante la falta de datos de entrenamiento y los elevados costes que conlleva</h5>
-              <h5>la contratación de una empresa externa para etiquetar los videos de las reuniones</h5>
+              <h5>Para el desarrollo de esta plataforma estoy utilizando: React, para la parte del cliente,</h5>
+              <h5>y ExpressJS, para la parte del servidor. </h5>
               <h5>nace UNNITATION.</h5>
-              <br/>
-              <h5>Esta Annotation Tool, de uso interno, hace que sean los propios empleados los</h5>
-              <h5>que dediquen de 10 a 15 minutos al día al etiquetado de videos.</h5>
-              <h5>Esta plataforma convierte los eventos de etiquetado en Datasets (CSVs) tratados</h5>
-              <h5>de manera específica para el entrenamiento de sus modelos.</h5>
             </div>
           </div>
         </section>
