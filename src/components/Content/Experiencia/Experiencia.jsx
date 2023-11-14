@@ -40,8 +40,8 @@ const Experiencia = () => {
               <h5>en la App para avisar de la creación o cambios en los planes en los que estás invitado y </h5>
               <h5>la creación de un Socket para el chat de cada plan.</h5>
               <br></br>
-              <h5>A parte del desarrollo del backend, también revisé y corregí la versión de Android, ya que .</h5>
-              <h5>la App se estaba desarrollando en IOs y al pasarla a Android algunas funcionalidades y.</h5>
+              <h5>A parte del desarrollo del backend, también revisé y corregí la versión de Android, ya que</h5>
+              <h5>la App se estaba desarrollando en IOs y al pasarla a Android algunas funcionalidades y</h5>
               <h5>componentes presentaban incompatibilidades.</h5>
             </div>
           </div>
@@ -68,7 +68,7 @@ const Experiencia = () => {
               <h5>este sector, ya que en un estudio que realicé con diferentes agencias de viajes,</h5>
               <h5>pude ver que todas tienen un problema con el almacenamiento de documentos, impresos</h5>
               <h5>facturas... que periódicamente tienen que introducir, una a una, en un sistema infórmatico</h5>
-              <h5>para su posterior destrucción.</h5>
+              <h5>para la posterior destrucción del papel.</h5>
               <br/>
               <h5>Para el desarrollo de esta plataforma estoy utilizando: React, para la parte del cliente,</h5>
               <h5>y ExpressJS, para la parte del servidor.</h5>
